@@ -1,0 +1,30 @@
+.container {
+    width: calc(100% - 8rem);
+    margin: 1rem 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.command-value {
+    background-color: rgba(184, 214, 255, 0.574);
+    border-radius: .3em;
+    margin: 0em .5em;
+}
+
+.command-text {
+    background-color: rgba(32, 187, 248, 0.574);
+    border-radius: .3em;
+}
+
+.ai-textarea {
+    border: 1px solid rgba(128, 128, 128, 0.421);
+    border-radius: .5em;
+    line-height: 1.5em;
+    z-index: 99999999;
+
+    width: 100%;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
